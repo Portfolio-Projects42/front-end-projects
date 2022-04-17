@@ -1,4 +1,4 @@
-# Test Runner >> Browser Launchers >> Write Your Own ||90
+# Test Runner  Browser Launchers  Write Your Own ||90
 
 A browser launcher handles booting up or connecting to a browser, visiting a URL and closing the browser when tests finish.
 

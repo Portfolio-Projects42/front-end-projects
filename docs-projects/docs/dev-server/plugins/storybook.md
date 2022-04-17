@@ -1,4 +1,4 @@
-# Dev Server >> Plugins >> Storybook ||7
+# Dev Server  Plugins  Storybook ||7
 
 Plugin for using Storybook with Web Dev Server using es modules.
 

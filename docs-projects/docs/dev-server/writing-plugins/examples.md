@@ -1,4 +1,4 @@
-# Dev Server >> Writing Plugins >> Examples ||2
+# Dev Server  Writing Plugins  Examples ||2
 
 Common examples using plugins.
 

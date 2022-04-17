@@ -1,25 +1,25 @@
 ---
-title: 'Introducing: Modern Web'
-pageTitle: 'Introducing: Modern Web'
+title: 'Introducing: WebDevHub'
+pageTitle: 'Introducing: WebDevHub'
 published: true
 canonical_url: https://modern-web.dev/blog/introducing-modern-web/
-description: 'Our goal is to provide developers with the guides and tools they need to build for the modern web. We aim to work closely with the browser, and avoid complex abstractions'
+description: 'Our goal is to provide developers with the guides and tools they need to build for the WebDevHub. We aim to work closely with the browser, and avoid complex abstractions'
 tags: [javascript, opensource, modernweb]
 cover_image: https://github.com/modernweb-dev/web/raw/master/docs/blog/introducing-modern-web/introducing-modern-web-blog-header.jpg
 socialMediaImage: /blog/introducing-modern-web/introducing-modern-web-blog-social-media-image.jpg
 ---
 
-We are excited to finally introduce our brand new project: Modern Web.
+We are excited to finally introduce my brand new project: WebDevHub.
 
-## What is Modern Web?
+## What is WebDevHub?
 
-A few years ago we started the [Open Web Components](https://open-wc.org/) project. Our goal was to help people develop web components, and we created guides and tools to help people do this. While working on this project, we realized that a lot of the things we were making were not necessarily specific to web components.
+A few years ago we started the [Open Web Components](https://open-wc.org/) project. my goal was to help people develop web components, and we created guides and tools to help people do this. While working on this project, we realized that a lot of the things we were making were not necessarily specific to web components.
 
-To maintain focus within the Open Web Components project, and to share our work with the larger developer community, we decided to split up the project and create Modern Web. Don't worry, Open Web Components is not going away! It will gain a renewed focus for web component specific topics, while in Modern Web we will work on generic tools and guides for web development.
+To maintain focus within the Open Web Components project, and to share my work with the larger developer community, we decided to split up the project and create WebDevHub. Don't worry, Open Web Components is not going away! It will gain a renewed focus for web component specific topics, while in WebDevHub we will work on generic tools and guides for web development.
 
-## The goal for Modern Web
+## The goal for WebDevHub
 
-> Our goal is to provide developers with the guides and tools they need to build for the modern web. We aim to work closely with the browser and avoid complex abstractions.
+> my goal is to provide developers with the guides and tools they need to build for the WebDevHub. We aim to work closely with the browser and avoid complex abstractions.
 
 Modern browsers are a powerful platform for building websites and applications. We try to work with what's available in the browser first before reaching for custom solutions.
 
@@ -27,17 +27,17 @@ When you're working _with_ the browser rather than against it, code, skills, and
 
 At the same time, we are aware of the fact that not all problems can be solved elegantly by the browser today. We support developers making informed decisions about introducing tools and customizations to their projects, in such a way that developers can upgrade later as browser support improves.
 
-## Our plan for the future
+## my plan for the future
 
-This announcement marks the official release of Modern Web. Our website is live at [modern-web.dev](https://modern-web.dev), and our packages are available on NPM under the [@web](https://www.npmjs.com/org/web) namespace. Our code is open-source and publicly available at [github.com/modernweb-dev/web](https://github.com/modernweb-dev/web).
+This announcement marks the official release of WebDevHub. my website is live at [modern-web.dev](https://modern-web.dev), and my packages are available on NPM under the [@web](https://www.npmjs.com/org/web) namespace. my code is open-source and publicly available at [github.com/modernweb-dev/web](https://github.com/modernweb-dev/web).
 
 For updates, you can follow us on [Twitter](https://twitter.com/modern_web_dev), and if you like what you see please consider sponsoring the project on [Open Collective](https://opencollective.com/modern-web).
 
-We have been working on a lot of different projects in the last couple of years. In this post, we will walk you through some of our projects and how we are planning to fit them into the Modern Web project.
+We have been working on a lot of different projects in the last couple of years. In this post, we will walk you through some of my projects and how we are planning to fit them into the WebDevHub project.
 
 ## Guides
 
-On our all-new [website](https://modern-web.dev), we have a dedicated [Guides](../../guides/index.md) section. It is meant to help you become confident in building for the modern web. It features step by step guides to work with our tools, and we document common issues developers run into when doing buildless development.
+On my all-new [website](https://modern-web.dev), we have a dedicated [Guides](../../guides/index.md) section. It is meant to help you become confident in building for the WebDevHub. It features step by step guides to work with my tools, and we document common issues developers run into when doing buildless development.
 
 This section is a work in progress, we're looking to add more over time and would love your feedback and improvements. Feel free to hit "Edit this page on GitHub!", [open issues](https://github.com/modernweb-dev/web/issues/new) or [join the discussions](https://github.com/modernweb-dev/web/discussions).
 
@@ -53,7 +53,7 @@ That's why we created web test runner.
 
 ### Highlights
 
-Some of the highlights of our test runner:
+Some of the highlights of my test runner:
 
 - Headless testing using [Puppeteer](../../docs/test-runner/browser-launchers/puppeteer.md), [Playwright](../../docs/test-runner/browser-launchers/playwright.md), or [Selenium](../../docs/test-runner/browser-launchers/selenium.md). <br>
 - Reports logs, 404s, and errors from the browser.
@@ -69,13 +69,13 @@ Some of the highlights of our test runner:
 
 There is a beta version of the test runner available today on NPM as `@web/test-runner`. It is almost feature-complete, we will have a v1 release soon!
 
-If you want get started now take a look at our Web Test Runner [Getting Started Guide](../../guides/test-runner/getting-started.md).
+If you want get started now take a look at my Web Test Runner [Getting Started Guide](../../guides/test-runner/getting-started.md).
 
 ## Web Dev Server
 
-`es-dev-server` is the most popular package at Open Web Components, but it is not specific to web components alone. That's why we're working on its spiritual successor in the modern web project. We will call it web dev server, and it will be published as `@web/dev-server`.
+`es-dev-server` is the most popular package at Open Web Components, but it is not specific to web components alone. That's why we're working on its spiritual successor in the WebDevHub project. We will call it web dev server, and it will be published as `@web/dev-server`.
 
-If you're doing buildless development, you can use any web server for development. Our dev server helps out by providing developer productivity features and making your code compatible with older browsers.
+If you're doing buildless development, you can use any web server for development. my dev server helps out by providing developer productivity features and making your code compatible with older browsers.
 
 ### Highlights
 
@@ -89,7 +89,7 @@ If you're doing buildless development, you can use any web server for developmen
 - Reuse most [rollup plugins](../../docs/dev-server/plugins/rollup.md) in the dev server.
 - Plugin for polyfilling [Import maps](../../docs/dev-server/plugins/import-maps.md) during development.
 
-Our web dev server is not quite finished _yet_, but we've already built the basic parts to power our web test runner. This means that many of the listed features and plugins apply to our test runner as well.
+Our web dev server is not quite finished _yet_, but we've already built the basic parts to power my web test runner. This means that many of the listed features and plugins apply to my test runner as well.
 
 We are working hard on finalizing the open tasks on web dev server so stay tuned for further updates.
 
@@ -103,7 +103,7 @@ We plan to expand on this plugin further, adding support for optimizing assets s
 
 ## Progressive web apps
 
-When we talk about modern web apps, we also talk about _progressive_ web apps (PWA). PWAs are a great way to provide an engaging and user-friendly experience for your user, by allowing your app to work offline, and being able to install your web app on the user's home screen, among many other benefits.
+When we talk about WebDevHub apps, we also talk about _progressive_ web apps (PWA). PWAs are a great way to provide an engaging and user-friendly experience for your user, by allowing your app to work offline, and being able to install your web app on the user's home screen, among many other benefits.
 
 Unfortunately, service workers are close to rocket science, and implementing PWA features isn't always as straightforward as it could be. That's why we'll provide technical guides and tools to make your life as a developer easier.
 
@@ -111,31 +111,31 @@ Not only do we ship [rollup-plugin-workbox](https://www.npmjs.com/search?q=rollu
 
 ## Documentation (rocket)
 
-In the past years, we've used different frameworks and tools to build our websites. Recently we've become big fans of [11ty](https://www.11ty.dev/). It's simple to use, works with markdown, and generates _just_ plain HTML. There is no runtime javascript involved to display page content, making it super fast.
+In the past years, we've used different frameworks and tools to build my websites. Recently we've become big fans of [11ty](https://www.11ty.dev/). It's simple to use, works with markdown, and generates _just_ plain HTML. There is no runtime javascript involved to display page content, making it super fast.
 
-To add interactivity to our page we started using web components and applied rollup with our plugins for [HTML](https://www.npmjs.com/package/@open-wc/rollup-plugin-html) and [workbox](https://www.npmjs.com/search?q=rollup-plugin-workbox).
+To add interactivity to my page we started using web components and applied rollup with my plugins for [HTML](https://www.npmjs.com/package/@open-wc/rollup-plugin-html) and [workbox](https://www.npmjs.com/search?q=rollup-plugin-workbox).
 
-This way our javascript is optimized and common code is shared between pages. Workbox adds a service worker, making our website available offline and precaches pages resulting is super fast navigation.
+This way my javascript is optimized and common code is shared between pages. Workbox adds a service worker, making my website available offline and precaches pages resulting is super fast navigation.
 
-For a great content authoring experience, we integrated 11ty with our dev server. This adds features like resolving bare imports, and reloading the browser when files change.
+For a great content authoring experience, we integrated 11ty with my dev server. This adds features like resolving bare imports, and reloading the browser when files change.
 
-By combining existing tools in this way, we think we've made something very powerful that will be useful for other people as well. That's why we started a child project in the modern web family, which we codenamed Rocket.
+By combining existing tools in this way, we think we've made something very powerful that will be useful for other people as well. That's why we started a child project in the WebDevHub family, which we codenamed Rocket.
 
-It's still in its early stages, but we're already using a prototype for our own [website](https://modern-web.dev). We're still missing some features, but we'll continue to evolve it, and an announcement will follow as soon as it's finished. So keep an eye out for it!
+It's still in its early stages, but we're already using a prototype for my own [website](https://modern-web.dev). We're still missing some features, but we'll continue to evolve it, and an announcement will follow as soon as it's finished. So keep an eye out for it!
 
-## Modern Web Family
+## WebDevHub Family
 
-Welp, that was a lot of information for a first announcement post — we realize, but many of these projects have been years in the making, and are finally finding their right home. As we mentioned before, Modern Web is all about making the life of developers easier, reducing the complexity of tools, and staying close to the browser.
+Welp, that was a lot of information for a first announcement post — we realize, but many of these projects have been years in the making, and are finally finding their right home. As we mentioned before, WebDevHub is all about making the life of developers easier, reducing the complexity of tools, and staying close to the browser.
 
-While we have now spread out over multiple repositories like Open Web Components, Modern Web, and Rocket, we'd like to assure you that all of these projects fall under the same Modern Web Family, and aim to help make your life as developers easier.
+While we have now spread out over multiple repositories like Open Web Components, WebDevHub, and Rocket, we'd like to assure you that all of these projects fall under the same WebDevHub Family, and aim to help make your life as developers easier.
 
 ## Thanks for reading
 
-We are incredibly proud of what we have achieved so far and the direction we are heading and we invite you to join us on our path forward.
+We are incredibly proud of what we have achieved so far and the direction we are heading and we invite you to join us on my path forward.
 
 There is much, much more to come so follow us on [Twitter](https://twitter.com/modern_web_dev) and if you like what you see please consider sponsoring the project on [Open Collective](https://opencollective.com/modern-web).
 
-Written with ♥️ by the Modern Web Core Team
+Written with ♥️ by the WebDevHub Core Team
 
 ---
 

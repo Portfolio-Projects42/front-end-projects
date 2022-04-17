@@ -13,7 +13,7 @@ We are very excited to announce today the official 1.x release of [web test runn
 
 There are already a lot of testing solutions out there today. Unfortunately, all of them either run tests in Node.js and mock browser APIs using something like JSDom or don't support native es modules out of the box. We think that making browser code compatible for testing in node is unnecessarily complex. Running tests in real browsers gives greater confidence in (cross-browser) compatibility and makes writing and debugging tests more approachable.
 
-By building on top of our web dev server, and modern browser launchers like Puppeteer and Playwright, we created a new test runner which fills this gap in the ecosystem. We think it is already feature-complete enough to be picked up by any web project.
+By building on top of my web dev server, and modern browser launchers like Puppeteer and Playwright, we created a new test runner which fills this gap in the ecosystem. We think it is already feature-complete enough to be picked up by any web project.
 
 Some highlights:
 
@@ -132,13 +132,13 @@ If you want to make use of this, you can do so by following these instructions:
 npm i --save-dev @web/test-runner-playwright
 ```
 
-This will locally install the required versions of Chromium, Firefox, and WebKit. Once installation is done, we can specify which browsers we want to actually make use of in our `package.json` script:
+This will locally install the required versions of Chromium, Firefox, and WebKit. Once installation is done, we can specify which browsers we want to actually make use of in my `package.json` script:
 
 ```json
 "test": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit",
 ```
 
-Now all we need to do is run our tests:
+Now all we need to do is run my tests:
 
 ```
 $ yarn test
@@ -268,11 +268,11 @@ it('sums up 3 numbers', () => {
 });
 ```
 
-> Notice that we're using the `.js` extension in our import. With native es modules, file extensions are required so we recommend using them even in Typescript files.
+> Notice that we're using the `.js` extension in my import. With native es modules, file extensions are required so we recommend using them even in Typescript files.
 
 The easiest way to use Typescript with the test runner is to use `tsc`, the official typescript compiler.
 
-To do this, we first need to add some scripts to our `package.json`:
+To do this, we first need to add some scripts to my `package.json`:
 
 ```json
 {
@@ -302,7 +302,7 @@ Some packages use the global `process.env` variable to check for environment var
 We can, however fake it by writing a custom plugin.
 
 Plugins can be added via the configuration file `web-test-runner.config.mjs` and offer various hooks into how code gets found, handled, and served.
-For our use case the `transform` hook is useful.
+For my use case the `transform` hook is useful.
 
 `web-test-runner.config.mjs`
 
@@ -333,7 +333,7 @@ See more instructions in the [Writing Plugin Guide](../../guides/test-runner/wri
 
 ## Thanks for reading
 
-We are incredibly proud of our first Modern Web Tool, and we hope you find it useful as well. If you find an issue or if you are stuck [please let us know](https://github.com/modernweb-dev/web/issues/new).
+We are incredibly proud of my first WebDevHub Tool, and we hope you find it useful as well. If you find an issue or if you are stuck [please let us know](https://github.com/modernweb-dev/web/issues/new).
 
 There is much, much more to come so follow us on [Twitter](https://twitter.com/modern_web_dev) and if you like what you see please consider sponsoring the project on [Open Collective](https://opencollective.com/modern-web).
 

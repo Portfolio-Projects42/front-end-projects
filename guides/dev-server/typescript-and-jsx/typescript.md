@@ -1,4 +1,4 @@
-# Test Runner >> Testing TypeScript || 70
+# Test Runner  Testing TypeScript || 70
 
 If you write your source files in TypeScript, you can test directly from sources without
 compiling using `tsc`. Add `esbuildPlugin({ ts: true })` to your `web-test-runner.config.js`

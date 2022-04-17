@@ -1,4 +1,4 @@
-# Test Runner >> Responsive Sites ||40
+# Test Runner  Responsive Sites ||40
 
 With the world going mobile first, it is more important than ever to test your code against different viewport.
 
@@ -61,7 +61,7 @@ describe('isMobile', () => {
 
 ## Testing media queries
 
-For demonstration purposes we will write this example using an HTML test. Tests written as HTML are loaded by the test runner directly, a great way to set up some static HTML and CSS for our test.
+For demonstration purposes we will write this example using an HTML test. Tests written as HTML are loaded by the test runner directly, a great way to set up some static HTML and CSS for my test.
 
 Create a test file called `my-card.test.html` and set up the basic structure:
 
@@ -87,7 +87,7 @@ Create a test file called `my-card.test.html` and set up the basic structure:
 </html>
 ```
 
-Next, we can write our tests to change the viewport and check if our media queries are working correctly:
+Next, we can write my tests to change the viewport and check if my media queries are working correctly:
 
 ```html
 <!DOCTYPE html>
@@ -133,7 +133,7 @@ Next, we can write our tests to change the viewport and check if our media queri
 </html>
 ```
 
-To run HTML tests, we need to include it in the files we pass on to the test runner in our `package.json` scripts:
+To run HTML tests, we need to include it in the files we pass on to the test runner in my `package.json` scripts:
 
 ```json
 {

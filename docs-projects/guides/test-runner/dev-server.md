@@ -1,4 +1,4 @@
-# Test Runner >> Dev Server ||60
+# Test Runner  Dev Server ||60
 
 Web Test Runner is based on Web Dev Server and shares the same configuration.
 

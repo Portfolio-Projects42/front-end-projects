@@ -1,4 +1,4 @@
-# Test Runner >> Browser Launchers >> Playwright ||40
+# Test Runner  Browser Launchers  Playwright ||40
 
 Run tests using [Playwright](https://www.npmjs.com/package/playwright), using a bundled versions of Chromium, Firefox, and/or Webkit.
 

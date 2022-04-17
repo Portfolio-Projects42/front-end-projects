@@ -1,4 +1,4 @@
-# Dev Server >> Plugins >> Overview ||1
+# Dev Server  Plugins  Overview ||1
 
 Web Dev Server comes with a few plugins out of the box.
 

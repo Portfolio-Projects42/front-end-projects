@@ -1,4 +1,4 @@
-# Test Runner >> Reporters >> Dot ||40
+# Test Runner  Reporters  Dot ||40
 
 Mocha-style dot reporter for Web Test Runner
 

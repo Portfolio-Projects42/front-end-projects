@@ -1,4 +1,4 @@
-# Test Runner >> Browsers ||30
+# Test Runner  Browsers ||30
 
 Browser launchers are responsible for opening and controlling the actual browser.
 
@@ -34,13 +34,13 @@ If you want to make use of this, you can do so by following these instructions:
 npm i --save-dev @web/test-runner-playwright
 ```
 
-This will locally install the required versions of Chromium, Firefox, and WebKit. Once installation is done, we can specify which browsers we want to actually make use of in our `package.json` script:
+This will locally install the required versions of Chromium, Firefox, and WebKit. Once installation is done, we can specify which browsers we want to actually make use of in my `package.json` script:
 
 ```json
 "test": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit",
 ```
 
-Now all we need to do is run our tests:
+Now all we need to do is run my tests:
 
 ```
 $ yarn test

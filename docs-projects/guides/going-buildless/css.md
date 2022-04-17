@@ -1,4 +1,4 @@
-# Going Buildless >> CSS ||30
+# Going Buildless  CSS ||30
 
 ```js script
 // TODO: find out why this is needed?

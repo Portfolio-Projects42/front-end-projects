@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: Dev Server >> Overview
+  key: Dev Server  Overview
   title: Overview
   parent: Dev Server
   order: 1

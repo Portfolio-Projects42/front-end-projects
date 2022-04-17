@@ -1,4 +1,4 @@
-# Building >> Rollup Plugin Import Meta Assets ||30
+# Building  Rollup Plugin Import Meta Assets ||30
 
 Rollup plugin that detects assets references relative to modules using patterns such as `new URL('./assets/my-img.png', import.meta.url)`.
 

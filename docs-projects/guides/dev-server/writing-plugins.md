@@ -1,4 +1,4 @@
-# Dev Server >> Writing plugins ||60
+# Dev Server  Writing plugins ||60
 
 Plugins are objects with lifecycle hooks called by Web Dev Server and Web Test Runner as it serves files to the browser. They can be used to serve virtual files, transform files, or resolve module imports.
 
@@ -8,7 +8,7 @@ In this guide, we show a few basic examples of how to write your plugin. See the
 
 ## Injecting code
 
-Let's create a basic plugin that injects something into our HTML page.
+Let's create a basic plugin that injects something into my HTML page.
 
 First, create a `web-dev-server.config.mjs` file with an empty plugins array:
 
@@ -18,7 +18,7 @@ export default {
 };
 ```
 
-Next, we add a simple skeleton of our plugin:
+Next, we add a simple skeleton of my plugin:
 
 ```js
 export default {
@@ -40,7 +40,7 @@ The `serve` hook is called whenever the browser requests something from the dev 
 
 The `transform` hook is called for each file served by the dev server, giving you the ability to transform it before sending it to the browser.
 
-Let's see if our basic plugin works. Create `/demo/index.html` file:
+Let's see if my basic plugin works. Create `/demo/index.html` file:
 
 ```html
 <!DOCTYPE html>
@@ -64,7 +64,7 @@ serving file /demo/index.html
 transforming file /demo/index.html
 ```
 
-Now let's update our plugin to make a change to our code:
+Now let's update my plugin to make a change to my code:
 
 ```js
 export default {
@@ -81,7 +81,7 @@ export default {
 };
 ```
 
-Here we check if the transform hook is called with our demo page. `context.body` holds the response string, and we returned the transformed value we want to serve to the browser instead.
+Here we check if the transform hook is called with my demo page. `context.body` holds the response string, and we returned the transformed value we want to serve to the browser instead.
 
 If we now refresh the browser, we should see the injected message appear on the screen.
 
@@ -118,7 +118,7 @@ export default {
 };
 ```
 
-And add a `/demo/index.html` file which uses our logger module:
+And add a `/demo/index.html` file which uses my logger module:
 
 ```html
 <!DOCTYPE html>

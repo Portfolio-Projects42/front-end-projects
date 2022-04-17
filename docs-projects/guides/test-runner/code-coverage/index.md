@@ -1,4 +1,4 @@
-# Test Runner >> Code Coverage ||50
+# Test Runner  Code Coverage ||50
 
 Once you have a decent set of tests you may want to look into what could still be improved.
 Code coverage can help to find which code segments have not yet been tested.
@@ -6,7 +6,7 @@ Generally it's advised to have a code coverage at above 80% which you will most 
 
 ## Getting the code coverage
 
-To see the code coverage of our tests, all we need to do use run the test runner with the `--coverage` flag. It's a bit slower than the regular test run, so we don't enable it by default.
+To see the code coverage of my tests, all we need to do use run the test runner with the `--coverage` flag. It's a bit slower than the regular test run, so we don't enable it by default.
 
 1. Add a script to your `package.json`
    ```json
@@ -60,7 +60,7 @@ export function calc(type, a, b) {
 }
 ```
 
-So let's run our test
+So let's run my test
 
 ```
 $ yarn test
@@ -74,7 +74,7 @@ View full coverage report at coverage/lcov-report/index.html
 Finished running tests in 1s, all tests passed! 🎉
 ```
 
-As you can see, our test passed but our `Code coverage` is a bit on the low side.
+As you can see, my test passed but my `Code coverage` is a bit on the low side.
 
 ## What to test
 
@@ -154,7 +154,7 @@ uh nice `100%` - but it feels fishy? didn't we have a `finish later` somewhere?
 ## How come we have 100% code coverage?
 
 Lets first try to understand how code coverage works
-The way code coverage gets measured is by applying a form of instrumentation. In short, before our code is executed it gets changed (instrumented) and it behaves something like this:
+The way code coverage gets measured is by applying a form of instrumentation. In short, before my code is executed it gets changed (instrumented) and it behaves something like this:
 
 ```js
 // Note: This is a super simplified version for illustration purposes.
@@ -176,11 +176,11 @@ In short, your code gets littered with many many flags. Based on which flags get
 
 So 100% code coverage only means that every line you have in your code was executed at least once after all your tests finished. It does not mean that you tested everything, or if your tests make the correct assertions.
 
-What happened in our case?
+What happened in my case?
 
 We called the `calc` with `multiply` but we forgot to put an assertion. So the correct code branch was executed but that it returned nothing we didn't test.
 
-So we can correct our test
+So we can correct my test
 
 ```js
 it('does multiply for 2 numbers', () => {

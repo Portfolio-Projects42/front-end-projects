@@ -1,4 +1,4 @@
-# Test Runner >> Browser Launchers >> Sauce Labs ||70
+# Test Runner  Browser Launchers  Sauce Labs ||70
 
 Browser launchers for web test runner to run tests remotely on [Sauce Labs](https://saucelabs.com/).
 

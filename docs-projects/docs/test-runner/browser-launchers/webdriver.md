@@ -1,4 +1,4 @@
-# Test Runner >> Browser Launchers >> Webdriver ||80
+# Test Runner  Browser Launchers  Webdriver ||80
 
 Run tests using [WebdriverIO](https://webdriver.io).
 

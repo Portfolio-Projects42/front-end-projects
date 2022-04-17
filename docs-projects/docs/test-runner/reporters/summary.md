@@ -1,4 +1,4 @@
-# Test Runner >> Reporters >> Summary ||30
+# Test Runner  Reporters  Summary ||30
 
 Mocha-style summary reporter for Web Test Runner
 

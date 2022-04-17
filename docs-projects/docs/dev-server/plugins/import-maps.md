@@ -1,4 +1,4 @@
-# Dev Server >> Plugins >> Import Maps ||5
+# Dev Server  Plugins  Import Maps ||5
 
 Plugin for resolving imports using [Import maps](https://github.com/WICG/import-maps).
 

@@ -1,18 +1,19 @@
 <html>
-  <head>
-    <!-- the import map to use in our test -->
+
+<head>
+    <!-- the import map to use in my test -->
     <script type="importmap">
-      {
+        {
         "imports": {
           "../src/postData.js": "./mocks/postData.js"
         }
       }
     </script>
-  </head>
+</head>
 
-  <body>
+<body>
     <script type="module">
-      import { runTests } from "@web/test-runner-mocha";
+        import { runTests } from "@web/test-runner-mocha";
       import { expect } from "@esm-bundle/chai";
       // import inside will resolve to ./mocks/postData.js
       import { sendMessage } from "../src/postMessage.js";
@@ -36,5 +37,6 @@
         });
       });
     </script>
-  </body>
+</body>
+
 </html>

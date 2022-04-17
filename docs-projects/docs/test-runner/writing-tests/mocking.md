@@ -1,4 +1,4 @@
-# Test Runner >> Writing Tests >> Mocking ||50
+# Test Runner  Writing Tests  Mocking ||50
 
 ## Mocking functions
 
@@ -22,7 +22,7 @@ import * as myModule from './my-module.js';
 stub(myModule, 'myImport');
 ```
 
-We can use [Import Maps](https://github.com/WICG/import-maps) in our tests to resolve module imports to a mocked version.
+We can use [Import Maps](https://github.com/WICG/import-maps) in my tests to resolve module imports to a mocked version.
 
 ### Using Import Maps to tests
 
@@ -55,7 +55,7 @@ This will inject the import map to every HTML file in your tests. Go to the [Imp
 
 Import Maps are defined in HTML. We need to write a [HTML test](./html-tests.md) to use a specific Import Map per test.
 
-This is an example using Mocha. We want to test if a function works correctly without actually causing side effects, like posting data to a server. We mock the module that causes side effects in our test.
+This is an example using Mocha. We want to test if a function works correctly without actually causing side effects, like posting data to a server. We mock the module that causes side effects in my test.
 
 Source code:
 
@@ -92,7 +92,7 @@ Test file:
 ```html
 <html>
   <head>
-    <!-- the import map to use in our test -->
+    <!-- the import map to use in my test -->
     <script type="importmap">
       {
         "imports": {

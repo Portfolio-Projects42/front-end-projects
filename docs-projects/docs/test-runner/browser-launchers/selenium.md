@@ -1,4 +1,4 @@
-# Test Runner >> Browser Launchers >> Selenium ||50
+# Test Runner  Browser Launchers  Selenium ||50
 
 Run tests using [selenium-webdriver](https://www.npmjs.com/package/selenium-webdriver).
 

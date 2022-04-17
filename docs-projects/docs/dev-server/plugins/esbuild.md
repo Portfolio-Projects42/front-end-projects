@@ -1,4 +1,4 @@
-# Dev Server >> Plugins >> Esbuild ||3
+# Dev Server  Plugins  Esbuild ||3
 
 Plugin for using [esbuild](https://github.com/evanw/esbuild) in Web Dev Server and Web Test Runner. [esbuild](https://github.com/evanw/esbuild) is a blazing fast build tool.
 

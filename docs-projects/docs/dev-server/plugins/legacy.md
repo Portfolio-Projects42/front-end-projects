@@ -1,4 +1,4 @@
-# Dev Server >> Plugins >> Legacy ||6
+# Dev Server  Plugins  Legacy ||6
 
 Plugin for using the dev server or test runner on legacy browsers, for example on Internet Explorer 11 which does not support modules.
 

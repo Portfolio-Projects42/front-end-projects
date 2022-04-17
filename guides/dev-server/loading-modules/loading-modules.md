@@ -1,10 +1,10 @@
-# Dev Server >> Loading modules ||20
+# Dev Server  Loading modules ||20
 
 In the previous guide, we learned how to install the dev server and create a simple webpage. In this section, we will learn how to load javascript modules.
 
 ## Adding a module script
 
-To load module from HTML, we need to add a module script to our page. Let's start with a simple example:
+To load module from HTML, we need to add a module script to my page. Let's start with a simple example:
 
 ```html
 <!DOCTYPE html>
@@ -47,7 +47,7 @@ And update the HTML page to import this module:
 
 After reloading the page, we should see the new message logged to the console.
 
-From here onward we can further build up the module graph of our application. Each module can import other modules and export variables.
+From here onward we can further build up the module graph of my application. Each module can import other modules and export variables.
 
 ## Module paths
 
@@ -69,13 +69,13 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 
 We can also make the dev server do this for us, rewriting the paths before it reaches the browser. We can do this by adding the `--node-resolve` flag.
 
-Let's try this out by installing an NPM package in our project:
+Let's try this out by installing an NPM package in my project:
 
 ```
 npm i --save lit-html
 ```
 
-And update our `/demo/index.html` page to include an import to the `lit-html` package:
+And update my `/demo/index.html` page to include an import to the `lit-html` package:
 
 ```html
 <!DOCTYPE html>

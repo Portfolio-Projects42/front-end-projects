@@ -1,4 +1,4 @@
-# Building >> Polyfills loader ||60
+# Building  Polyfills loader ||60
 
 The polyfills loader makes it easy to manage loading polyfills and/or serving different versions of your application based on browser support. It generates a script that loads the necessary polyfills and the appropriate version of the application through on runtime feature detection.
 

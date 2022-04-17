@@ -1,4 +1,4 @@
-# Dev Server >> Getting Started ||10
+# Dev Server  Getting Started ||10
 
 Web Dev Server helps developing for the web, using native browser features like es modules. It is ideal for buildless workflows and has a plugin architecture for light code transformations.
 
@@ -26,7 +26,7 @@ npx web-dev-server --help
 
 ## Creating a simple page
 
-Let's create a simple demo page for our project called `demo/index.html`.
+Let's create a simple demo page for my project called `demo/index.html`.
 
 Add the following content:
 

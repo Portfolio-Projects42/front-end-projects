@@ -1,4 +1,4 @@
-# Going Buildless >> Serving ||10
+# Going Buildless  Serving ||10
 
 The fundamental relationship at the heart of the web is the relationship between the server and the client or browser (we'll use "browser" and "client" interchangeably for the rest of this article).
 
@@ -108,7 +108,7 @@ Absolute URLs contain only a path, omitting the protocol and origin. They always
 <a href="/index.html">Home Page</a>
 ```
 
-This link will have the same behaviour on all pages on `modern-web.dev`, namely returning to the Modern Web homepage. but if placed on `developer.mozilla.org`, will link to the MDN homepage, not Modern Web's.
+This link will have the same behaviour on all pages on `modern-web.dev`, namely returning to the WebDevHub homepage. but if placed on `developer.mozilla.org`, will link to the MDN homepage, not WebDevHub's.
 
 Absolute links containing _only_ a `/` are special, they refer to the web root. In most cases, they are synonymous with `/index.html`.
 

@@ -1,4 +1,4 @@
-# Test Runner >> Browser Launchers >> Overview ||10
+# Test Runner  Browser Launchers  Overview ||10
 
 For convenience you can configure a few other browser launchers using CLI flags
 

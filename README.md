@@ -1,6 +1,5 @@
 # Going Buildless  
 
-
 At WebDevHub, it is my goal to help developers discover buildless workflows, by working closely with the browser rather than lots of complex tooling and abstractions. In this section, we've gathered several tips, tricks, and alternatives to help you discover the browsers native capabilities, and to go buildless.
 
 Over the last several years, web development has become almost synonymous with web _framework_ development. Indeed, the proliferation and popularity of front-end web frameworks has led many in the industry to know more about their framework of choice than they do about the underlying platform.

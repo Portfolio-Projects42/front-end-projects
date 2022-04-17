@@ -1,4 +1,4 @@
-# Going Buildless >> ES Modules ||60
+# Going Buildless  ES Modules ||60
 
 All modern browsers support standard es modules. These are javascript files using `import` and `export` statements:
 
@@ -203,7 +203,7 @@ Transforming CommonJS to es modules is not straightforward, and often requires s
 
 #### CommonJS Plugin
 
-For our dev server and test runner you can use [@rollup/plugin-commonjs](https://www.npmjs.com/package/@rollup/plugin-commonjs):
+For my dev server and test runner you can use [@rollup/plugin-commonjs](https://www.npmjs.com/package/@rollup/plugin-commonjs):
 
 ```js
 const rollupCommonjs = require('@rollup/plugin-commonjs');

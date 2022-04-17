@@ -1,4 +1,4 @@
-# Dev Server >> Proxy to other servers ||30
+# Dev Server  Proxy to other servers ||30
 
 When running the dev server you may want to redirect some requests from the browser to another server, for example, an API. This could be a server on your localhost or an external address.
 
@@ -6,7 +6,7 @@ The dev server exposes a middleware option where we can intercept requests and r
 
 ## Create an example server
 
-To start, let's create a simple local API for our project. Create `api-server.mjs` in your project with this content:
+To start, let's create a simple local API for my project. Create `api-server.mjs` in your project with this content:
 
 ```js
 import http from 'http';
@@ -29,7 +29,7 @@ Next, let's install the required dependencies:
 npm install --save-dev @web/dev-server koa-proxies
 ```
 
-Add the middleware to our `web-dev-server.config.mjs`, forwarding all requests that start with `/api/` to our local server:
+Add the middleware to my `web-dev-server.config.mjs`, forwarding all requests that start with `/api/` to my local server:
 
 ```js
 import proxy from 'koa-proxies';
@@ -47,7 +47,7 @@ export default {
 
 ## Making the request
 
-Finally, we can update our `demo/index.html` to make a request to the API endpoint we defined.
+Finally, we can update my `demo/index.html` to make a request to the API endpoint we defined.
 
 ```html
 <!DOCTYPE html>

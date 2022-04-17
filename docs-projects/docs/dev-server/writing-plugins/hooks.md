@@ -1,4 +1,4 @@
-# Dev Server >> Writing Plugins >> Hooks ||3
+# Dev Server  Writing Plugins  Hooks ||3
 
 ## Hook: serve
 

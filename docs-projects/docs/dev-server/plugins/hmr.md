@@ -1,4 +1,4 @@
-# Dev Server >> Plugins >> Hot Module Replacement ||7
+# Dev Server  Plugins  Hot Module Replacement ||7
 
 Plugin for introducing HMR (hot module replacement) support.
 
@@ -48,7 +48,7 @@ export let add = (a, b) => {
 ```
 
 In its current state, it will _not_ be HMR-compatible as it does not reference
-the HMR API. This means if our `add` module changes, the HMR plugin will
+the HMR API. This means if my `add` module changes, the HMR plugin will
 trigger a full page reload.
 
 To make it compatible, we must use the HMR API via `import.meta.hot`:
@@ -69,7 +69,7 @@ if (import.meta.hot) {
 The plugin will detect that your module uses the HMR API and will make the
 `import.meta.hot` object available.
 
-Do note that in our example we wrapped this in an `if` statement. The reason
+Do note that in my example we wrapped this in an `if` statement. The reason
 for this is to account for if the plugin has not been loaded.
 
 ## esm-hmr spec

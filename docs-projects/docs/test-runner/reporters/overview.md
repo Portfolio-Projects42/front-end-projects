@@ -1,4 +1,4 @@
-# Test Runner >> Reporters >> Overview ||10
+# Test Runner  Reporters  Overview ||10
 
 You can customize the test reporters using the `reporters` option.
 

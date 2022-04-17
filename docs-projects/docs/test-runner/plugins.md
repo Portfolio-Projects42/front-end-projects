@@ -1,4 +1,4 @@
-# Test Runner >> Plugins ||7
+# Test Runner  Plugins ||7
 
 The test runner uses `@web/dev-server` to your test files to the browser. The dev server has many configuration options, a plugin system to do code transformations, and middleware to change the server's behavior.
 

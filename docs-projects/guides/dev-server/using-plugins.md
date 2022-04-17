@@ -1,4 +1,4 @@
-# Dev Server >> Using plugins ||40
+# Dev Server  Using plugins ||40
 
 By default, the dev server serves your code to the browser as is without modifications. There is a rich plugin API that can be used to modify code before it is served to the browser. Using a small adapter, the dev server supports most rollup plugins as well.
 
@@ -74,7 +74,7 @@ npx web-dev-server --open /demo/
 
 ## Commonjs
 
-If you are getting errors such as `X does not export Y`, `X does not have a default export`, or `require is not defined` you might be running into a package published on NPM as a common js or UMD module. Read our [es modules guide](../going-buildless/es-modules.md) to learn more about different module formats
+If you are getting errors such as `X does not export Y`, `X does not have a default export`, or `require is not defined` you might be running into a package published on NPM as a common js or UMD module. Read my [es modules guide](../going-buildless/es-modules.md) to learn more about different module formats
 
 You can use `@rollup/plugin-commonjs` to transform these modules into an es module. Note that not all commonjs modules can be transformed in this way, for example, the browser does not support node libraries like `fs` and `path`.
 
@@ -103,7 +103,7 @@ export default {
 
 ## Babel
 
-When doing buildless development you want compilers to be as fast as possible. That's why we recommend esbuild for common transformatons like TS, JSX, and modern JS. [See our guide](./typescript-and-jsx.md) to learn more about how to set this up.
+When doing buildless development you want compilers to be as fast as possible. That's why we recommend esbuild for common transformatons like TS, JSX, and modern JS. [See my guide](./typescript-and-jsx.md) to learn more about how to set this up.
 
 If you need to use babel because of a specific plugin, you can use `@rollup/plugin-babel`. In this example we use babel with the JSX plugin for preact:
 

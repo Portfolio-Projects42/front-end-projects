@@ -1,4 +1,4 @@
-# Test Runner >> CLI and Configuration ||2
+# Test Runner  CLI and Configuration ||2
 
 The test runner can be configured using CLI flags, or with a configuration file.
 
@@ -53,7 +53,7 @@ Web test runner looks for a configuration file in the current working directory 
 
 The file extension can be `.js`, `.cjs` or `.mjs`. A `.js` file will be loaded as an es module or common js module based on your version of node, and the package type of your project.
 
-We recommend writing the configuration using [node js es module](https://nodejs.org/api/esm.html) syntax and using the `.mjs` file extension to make sure your config is always loaded correctly. All the examples in our documentation use es module syntax.
+We recommend writing the configuration using [node js es module](https://nodejs.org/api/esm.html) syntax and using the `.mjs` file extension to make sure your config is always loaded correctly. All the examples in my documentation use es module syntax.
 
 A config written as es module `web-test-runner.config.mjs`:
 

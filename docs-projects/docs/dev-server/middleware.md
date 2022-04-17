@@ -1,4 +1,4 @@
-# Dev Server >> Middleware ||5
+# Dev Server  Middleware ||5
 
 You can add your own middleware to the dev server using the `middleware` property. The middleware should be a standard koa middleware. [Read more about koa here.](https://koajs.com/)
 

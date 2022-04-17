@@ -1,4 +1,4 @@
-# Dev Server >> CLI and Configuration ||2
+# Dev Server  CLI and Configuration ||2
 
 The dev server can be configured using CLI flags, or with a configuration file.
 
@@ -48,7 +48,7 @@ Web Dev Server looks for a configuration file in the current working directory c
 
 The file extension can be `.js`, `.cjs` or `.mjs`. A `.js` file will be loaded as an es module or common js module based on your version of node, and the package type of your project.
 
-We recommend writing the configuration using [node js es module](https://nodejs.org/api/esm.html) syntax and using the `.mjs` file extension to make sure your config is always loaded correctly. All the examples in our documentation use es module syntax.
+We recommend writing the configuration using [node js es module](https://nodejs.org/api/esm.html) syntax and using the `.mjs` file extension to make sure your config is always loaded correctly. All the examples in my documentation use es module syntax.
 
 A config written as es module `web-dev-server.config.mjs`:
 
