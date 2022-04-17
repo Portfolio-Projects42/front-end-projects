@@ -1,0 +1,23 @@
+{
+  "name": "@web/demo-react-jsx",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --open demo/ --node-resolve",
+    "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
+    "test": "web-test-runner test/**/*.test.jsx",
+    "test:watch": "web-test-runner test/**/*.test.jsx --watch"
+  },
+  "dependencies": {
+    "react": "npm:@pika/react@16.13.1",
+    "react-dom": "npm:@pika/react-dom@16.13.1"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "4.3.4",
+    "@web/dev-server": "0.1.30",
+    "@web/dev-server-esbuild": "0.3.0",
+    "@web/test-runner": "0.13.27"
+  }
+}

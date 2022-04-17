@@ -1,0 +1,18 @@
+{
+  "name": "@web/guides-test-runner-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run build && web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "4.3.4",
+    "@types/mocha": "9.1.0",
+    "@web/test-runner": "0.13.27",
+    "typescript": "4.6.3"
+  }
+}

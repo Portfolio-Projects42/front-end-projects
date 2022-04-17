@@ -1,0 +1,19 @@
+{
+  "name": "@web/demo-mock-es-module",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "modern-web",
+  "scripts": {
+    "test": "web-test-runner test/**/*.test.html --coverage --node-resolve",
+    "test:watch": "web-test-runner test/**/*.test.html --node-resolve --watch"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "4.3.4",
+    "@open-wc/testing": "2.5.33",
+    "@web/dev-server": "0.1.30",
+    "@web/dev-server-import-maps": "0.0.6",
+    "@web/test-runner": "0.13.27",
+    "sinon": "13.0.2"
+  }
+}

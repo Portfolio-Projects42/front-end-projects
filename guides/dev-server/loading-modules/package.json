@@ -1,0 +1,15 @@
+{
+  "name": "@web/guides-dev-server-loading-modules",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "web-dev-server --open /demo/ --node-resolve"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.1.30"
+  },
+  "dependencies": {
+    "lit-html": "1.4.1"
+  }
+}

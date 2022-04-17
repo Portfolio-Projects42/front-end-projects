@@ -1,0 +1,14 @@
+{
+  "name": "@web/guides-test-runner-playwright",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "4.3.4",
+    "@web/test-runner": "0.13.27",
+    "@web/test-runner-playwright": "0.8.8"
+  }
+}

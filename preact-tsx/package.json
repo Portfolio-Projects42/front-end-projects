@@ -1,0 +1,23 @@
+{
+  "name": "@web/demo-preact-tsx",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --open demo/ --node-resolve",
+    "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
+    "test": "web-test-runner test/**/*.test.tsx",
+    "test:watch": "web-test-runner test/**/*.test.tsx --watch"
+  },
+  "dependencies": {
+    "preact": "10.7.1"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "4.3.4",
+    "@web/dev-server": "0.1.30",
+    "@web/dev-server-esbuild": "0.3.0",
+    "@web/test-runner": "0.13.27",
+    "typescript": "4.6.3"
+  }
+}
