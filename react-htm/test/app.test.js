@@ -1,5 +1,5 @@
 import { expect } from "@esm-bundle/chai";
-import React from 'react';
+import React from "react";
 import htm from "htm";
 import App from "../src/App";
 import { fixture } from "./test-helpers";

@@ -1,7 +1,7 @@
-import React from 'react';
-import { expect } from '@esm-bundle/chai';
-import App from '../src/App';
-import { fixture } from './test-helpers';
+import React from "react";
+import { expect } from "@esm-bundle/chai";
+import App from "../src/App";
+import { fixture } from "./test-helpers";
 
 let element: Element;
 let restoreFixture: () => void;
@@ -14,6 +14,6 @@ afterEach(() => {
   restoreFixture();
 });
 
-it('renders a hello world message', () => {
-  expect(element!.textContent).to.include('Hello, World!');
+it("renders a hello world message", () => {
+  expect(element!.textContent).to.include("Hello, World!");
 });

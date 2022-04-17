@@ -1,3 +1,3 @@
-import { MyElement } from './src/MyElement.js';
+import { MyElement } from "./src/MyElement.js";
 
-window.customElements.define('my-element', MyElement);
+window.customElements.define("my-element", MyElement);

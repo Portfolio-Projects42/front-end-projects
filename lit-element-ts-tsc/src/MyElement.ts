@@ -1,4 +1,4 @@
-import { html, css, LitElement, property } from 'lit-element';
+import { html, css, LitElement, property } from "lit-element";
 
 export class MyElement extends LitElement {
   static styles = css`
@@ -9,7 +9,7 @@ export class MyElement extends LitElement {
     }
   `;
 
-  @property({ type: String }) title = 'Hey there';
+  @property({ type: String }) title = "Hey there";
 
   @property({ type: Number }) counter = 5;
 

@@ -1,1 +1,1 @@
-export { MyElement } from './src/MyElement.js';
+export { MyElement } from "./src/MyElement.js";

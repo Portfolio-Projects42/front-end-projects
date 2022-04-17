@@ -1,5 +1,5 @@
-import { Component } from 'preact';
-import { html } from 'htm/preact';
+import { Component } from "preact";
+import { html } from "htm/preact";
 
 export default class App extends Component {
   render() {
